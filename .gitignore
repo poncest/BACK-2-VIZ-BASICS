@@ -2,3 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+
+
+# ignore tableau temp files
+~*.twbr
