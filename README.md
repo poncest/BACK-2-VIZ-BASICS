@@ -6,7 +6,7 @@
 > rebuild a solid foundation.
 >
 
-More information can be found [HERE!](https://www.thetableaustudentguide.com/vizbasics) and [HERE!](https://www.tableau.com/blog/back-viz-basics)
+More information can be found [HERE](https://www.thetableaustudentguide.com/vizbasics) and [HERE](https://www.tableau.com/blog/back-viz-basics)
 
 
 ## Where to find my contributions?
