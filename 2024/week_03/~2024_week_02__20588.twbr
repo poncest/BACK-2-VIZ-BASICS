@@ -1,0 +1,633 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20213.21.1217.2247                               -->
+<workbook source-build='2021.3.6 (20213.21.1217.2247)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+    <color-palette custom='true' name='SP_Pink_Sequential_n5' type='ordered-sequential'>
+      <color>#ffceb1</color>
+      <color>#feb0c4</color>
+      <color>#ee9bbd</color>
+      <color>#ee4d6f</color>
+      <color>#e83261</color>
+    </color-palette>
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Full-flowering date in Kyoto (KyotoFullFlowerW)' inline='true' name='federated.19faz510lul1mb18d81mc1nsyg1r' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='KyotoFullFlowerW' name='excel-direct.18ew1c10jg00tl1arp5wd0rbh2wv'>
+            <connection class='excel-direct' cleaning='yes' compat='no' dataRefreshTime='' filename='C:/Users/poncest/OneDrive - Bristol Myers Squibb/Tableau/B2VB/2024/week_02/KyotoFullFlowerW.xls' interpretationMode='1' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.18ew1c10jg00tl1arp5wd0rbh2wv' name='Full-flowering date in Kyoto' table='[&apos;Full-flowering date in Kyoto$&apos;]' type='table'>
+          <columns gridOrigin='A1:E1235:no:A1:E1235:1' header='yes' lost='0' outcome='1' processed='3563'>
+            <column datatype='integer' name='AD' ordinal='0' />
+            <column datatype='integer' name='Full-flowering date (DOY)' ordinal='1' />
+            <column datatype='integer' name='Full-flowering date' ordinal='2' />
+            <column datatype='integer' name='Source code' ordinal='3' />
+            <column datatype='string' name='Reference Name' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.18ew1c10jg00tl1arp5wd0rbh2wv' name='Full-flowering date in Kyoto' table='[&apos;Full-flowering date in Kyoto$&apos;]' type='table'>
+          <columns gridOrigin='A1:E1235:no:A1:E1235:1' header='yes' lost='0' outcome='1' processed='3563'>
+            <column datatype='integer' name='AD' ordinal='0' />
+            <column datatype='integer' name='Full-flowering date (DOY)' ordinal='1' />
+            <column datatype='integer' name='Full-flowering date' ordinal='2' />
+            <column datatype='integer' name='Source code' ordinal='3' />
+            <column datatype='string' name='Reference Name' ordinal='4' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Full-flowering date in Kyoto]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:E1235:no:A1:E1235:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>3563</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AD]</local-name>
+            <parent-name>[Full-flowering date in Kyoto]</parent-name>
+            <remote-alias>AD</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Full-flowering date in Kyoto_CD9D5FFC7B5C4856B4C53E0B60DE6861]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Full-flowering date (DOY)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Full-flowering date (DOY)]</local-name>
+            <parent-name>[Full-flowering date in Kyoto]</parent-name>
+            <remote-alias>Full-flowering date (DOY)</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Full-flowering date in Kyoto_CD9D5FFC7B5C4856B4C53E0B60DE6861]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Full-flowering date</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Full-flowering date]</local-name>
+            <parent-name>[Full-flowering date in Kyoto]</parent-name>
+            <remote-alias>Full-flowering date</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Full-flowering date in Kyoto_CD9D5FFC7B5C4856B4C53E0B60DE6861]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Source code</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Source code]</local-name>
+            <parent-name>[Full-flowering date in Kyoto]</parent-name>
+            <remote-alias>Source code</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Full-flowering date in Kyoto_CD9D5FFC7B5C4856B4C53E0B60DE6861]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Reference Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Reference Name]</local-name>
+            <parent-name>[Full-flowering date in Kyoto]</parent-name>
+            <remote-alias>Reference Name</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Full-flowering date in Kyoto_CD9D5FFC7B5C4856B4C53E0B60DE6861]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='calc - Full Flowering Date' datatype='date' name='[Calculation_5658491474616954880]' role='dimension' type='quantitative'>
+        <calculation class='tableau' formula='DATE(DATEADD(&apos;day&apos;, [Full-flowering date (DOY)] - 1, DATE(STR([AD]) + &quot;-01-01&quot;)))' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Full-flowering date in Kyoto' datatype='table' name='[__tableau_internal_object_id__].[Full-flowering date in Kyoto_CD9D5FFC7B5C4856B4C53E0B60DE6861]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Full-flowering date in Kyoto' id='Full-flowering date in Kyoto_CD9D5FFC7B5C4856B4C53E0B60DE6861'>
+            <properties context=''>
+              <relation connection='excel-direct.18ew1c10jg00tl1arp5wd0rbh2wv' name='Full-flowering date in Kyoto' table='[&apos;Full-flowering date in Kyoto$&apos;]' type='table'>
+                <columns gridOrigin='A1:E1235:no:A1:E1235:1' header='yes' lost='0' outcome='1' processed='3563'>
+                  <column datatype='integer' name='AD' ordinal='0' />
+                  <column datatype='integer' name='Full-flowering date (DOY)' ordinal='1' />
+                  <column datatype='integer' name='Full-flowering date' ordinal='2' />
+                  <column datatype='integer' name='Source code' ordinal='3' />
+                  <column datatype='string' name='Reference Name' ordinal='4' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Scatter Plot'>
+      <layout-options>
+        <title>
+          <formatted-text />
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Full-flowering date in Kyoto (KyotoFullFlowerW)' name='federated.19faz510lul1mb18d81mc1nsyg1r' />
+          </datasources>
+          <datasource-dependencies datasource='federated.19faz510lul1mb18d81mc1nsyg1r'>
+            <column datatype='integer' name='[AD]' role='measure' type='quantitative' />
+            <column caption='calc - Full Flowering Date' datatype='date' name='[Calculation_5658491474616954880]' role='dimension' type='quantitative'>
+              <calculation class='tableau' formula='DATE(DATEADD(&apos;day&apos;, [Full-flowering date (DOY)] - 1, DATE(STR([AD]) + &quot;-01-01&quot;)))' />
+            </column>
+            <column datatype='integer' name='[Full-flowering date (DOY)]' role='measure' type='quantitative' />
+            <column datatype='string' name='[Reference Name]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Source code]' role='measure' type='quantitative' />
+            <column-instance column='[Calculation_5658491474616954880]' derivation='Attribute' name='[attr:Calculation_5658491474616954880:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Reference Name]' derivation='Attribute' name='[attr:Reference Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[AD]' derivation='None' name='[none:AD:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Full-flowering date (DOY)]' derivation='None' name='[none:Full-flowering date (DOY):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[AD]' derivation='Sum' name='[sum:AD:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Full-flowering date (DOY)]' derivation='Sum' name='[sum:Full-flowering date (DOY):qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Source code]' derivation='Sum' name='[sum:Source code:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.19faz510lul1mb18d81mc1nsyg1r].[none:AD:qk]' included-values='in-range'>
+            <min>801</min>
+            <max>2010</max>
+          </filter>
+          <filter class='quantitative' column='[federated.19faz510lul1mb18d81mc1nsyg1r].[none:Full-flowering date (DOY):qk]' included-values='non-null' />
+          <slices>
+            <column>[federated.19faz510lul1mb18d81mc1nsyg1r].[none:Full-flowering date (DOY):qk]</column>
+            <column>[federated.19faz510lul1mb18d81mc1nsyg1r].[none:AD:qk]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.19faz510lul1mb18d81mc1nsyg1r].[sum:Full-flowering date (DOY):qk]' scope='rows' value='Day of Year (DOY)' />
+            <format attr='title' class='0' field='[federated.19faz510lul1mb18d81mc1nsyg1r].[sum:AD:qk]' scope='cols' value='Year (AD)' />
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.19faz510lul1mb18d81mc1nsyg1r].[sum:AD:qk]' field-type='quantitative' major-origin='0' major-spacing='250' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.19faz510lul1mb18d81mc1nsyg1r].[sum:Full-flowering date (DOY):qk]' field-type='quantitative' major-origin='0' major-spacing='10' max='130' min='78' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='font-size' value='26' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-size' value='12' />
+            <format attr='font-size' scope='rows' value='12' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.19faz510lul1mb18d81mc1nsyg1r].[sum:Source code:qk]' num-steps='6' palette='SP_Pink_Sequential_n5' symmetric='false' type='interpolated' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='font-size' value='12' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='fill-above' id='refline1' value='#00000000' />
+            <format attr='fill-below' id='refline1' value='#00000000' />
+            <format attr='line-visibility' id='refline1' value='on' />
+            <format attr='line-pattern-only' id='refline1' value='dashed' />
+            <format attr='fill-above' id='refline0' value='#00000000' />
+            <format attr='fill-below' id='refline0' value='#00000000' />
+            <format attr='line-visibility' id='refline0' value='on' />
+            <format attr='line-pattern-only' id='refline0' value='dashed' />
+            <format attr='stroke-size' id='refline0' value='1' />
+            <format attr='stroke-color' id='refline0' value='#b4b4b4' />
+            <format attr='stroke-size' id='refline1' value='1' />
+            <format attr='stroke-color' id='refline1' value='#b4b4b4' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='cols' value='1' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.19faz510lul1mb18d81mc1nsyg1r].[sum:Source code:qk]' value='Reference (Source Number)'>
+              <formatted-text>
+                <run fontsize='10'>Reference (Source Number)</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+          <style-rule element='quick-filter'>
+            <format attr='title' field='[federated.19faz510lul1mb18d81mc1nsyg1r].[none:AD:qk]' value='Year'>
+              <formatted-text>
+                <run fontsize='10'>Year</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Shape' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.19faz510lul1mb18d81mc1nsyg1r].[sum:Source code:qk]' />
+              <tooltip column='[federated.19faz510lul1mb18d81mc1nsyg1r].[attr:Reference Name:nk]' />
+              <tooltip column='[federated.19faz510lul1mb18d81mc1nsyg1r].[attr:Calculation_5658491474616954880:qk]' />
+            </encodings>
+            <trendline degree='3' enable-confidence-bands='true' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='polynomial' />
+            <reference-line axis-column='[federated.19faz510lul1mb18d81mc1nsyg1r].[sum:Full-flowering date (DOY):qk]' enable-instant-analytics='true' formula='constant' id='refline0' label='Late April' label-type='custom' scope='per-cell' value='120' value-column='[federated.19faz510lul1mb18d81mc1nsyg1r].[sum:Full-flowering date (DOY):qk]' z-order='2' />
+            <reference-line axis-column='[federated.19faz510lul1mb18d81mc1nsyg1r].[sum:Full-flowering date (DOY):qk]' enable-instant-analytics='true' formula='constant' id='refline1' label='Late March' label-type='custom' scope='per-cell' value='80' value-column='[federated.19faz510lul1mb18d81mc1nsyg1r].[sum:Full-flowering date (DOY):qk]' z-order='1' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Full-flowering date </run>
+                <run bold='true' fontcolor='#898989'>Date:</run>
+                <run bold='true' fontcolor='#c0c0c0'>Æ </run>
+                <run fontcolor='#787878'>Æ&#9;</run>
+                <run bold='true'><![CDATA[<[federated.19faz510lul1mb18d81mc1nsyg1r].[attr:Calculation_5658491474616954880:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Full-flowering date (DOY):&#9;</run>
+                <run bold='true'><![CDATA[<[federated.19faz510lul1mb18d81mc1nsyg1r].[sum:Full-flowering date (DOY):qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Source code:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.19faz510lul1mb18d81mc1nsyg1r].[sum:Source code:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Reference Name:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.19faz510lul1mb18d81mc1nsyg1r].[attr:Reference Name:nk]>]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='shape' value='asterisk' />
+                <format attr='size' value='1' />
+                <format attr='mark-transparency' value='255' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='910' />
+                <format attr='maxwidth' value='910' />
+                <format attr='minheight' value='707' />
+                <format attr='maxheight' value='707' />
+                <format attr='aspect' value='0' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.19faz510lul1mb18d81mc1nsyg1r].[sum:Full-flowering date (DOY):qk]</rows>
+        <cols>[federated.19faz510lul1mb18d81mc1nsyg1r].[sum:AD:qk]</cols>
+      </table>
+      <simple-id uuid='{2880FD5A-F942-4E41-9AFA-57E7F9BEA6CB}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style>
+        <style-rule element='table'>
+          <format attr='background-color' value='#dae0f227' />
+        </style-rule>
+      </style>
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <datasources>
+        <datasource caption='Full-flowering date in Kyoto (KyotoFullFlowerW)' name='federated.19faz510lul1mb18d81mc1nsyg1r' />
+      </datasources>
+      <datasource-dependencies datasource='federated.19faz510lul1mb18d81mc1nsyg1r'>
+        <column datatype='integer' name='[AD]' role='measure' type='quantitative' />
+        <column-instance column='[AD]' derivation='None' name='[none:AD:qk]' pivot='key' type='quantitative' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98000' id='52' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='98000' id='50' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+              <zone h='98000' id='48' type-v2='layout-basic' w='98400' x='800' y='1000'>
+                <zone h='89999' id='7' param='horz' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                  <zone h='89999' id='5' type-v2='layout-basic' w='98400' x='800' y='1000'>
+                    <zone h='72725' id='3' name='Scatter Plot' w='98400' x='800' y='18274'>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone forceUpdate='true' h='5624' id='11' type-v2='text' w='98400' x='800' y='1000'>
+                      <formatted-text>
+                        <run fontname='Arial Black' fontsize='24'>Cherry Blossom Full-flowering Dates</run>
+                      </formatted-text>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone forceUpdate='true' h='11650' id='12' type-v2='text' w='98400' x='800' y='6624'>
+                      <formatted-text>
+                        <run fontcolor='#898989' fontname='Arial Black' fontsize='12'>Kyoto, Japan (812 - 2008)</run>
+                      </formatted-text>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+                <zone forceUpdate='true' h='8001' id='13' type-v2='text' w='41000' x='22300' y='90999'>
+                  <formatted-text>
+                    <run fontalignment='1'>2024 #B2VB Week 02</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='8001' id='14' type-v2='text' w='35900' x='63300' y='90999'>
+                  <formatted-text>
+                    <run fontalignment='2' fontcolor='#898989'>Data Source Link:</run>
+                    <run fontalignment='2'>Æ&#10;</run>
+                    <run auto-url='true' fontalignment='2' fontcolor='#898989' hyperlink='tabdoc:load-url url=&amp;quot;http://atmenv.envi.osakafu-u.ac.jp/aono/kyophenotemp4/&amp;quot;'>http://atmenv.envi.osakafu-u.ac.jp/aono/kyophenotemp4/</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='4000' id='58' is-centered='0' is-scaled='1' param='C:/Users/poncest/Downloads/LinkedIn logo.png' type-v2='bitmap' w='21500' x='800' y='95000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone h='4001' id='60' is-centered='0' is-scaled='1' param='C:/Users/poncest/Downloads/twitter-x logo.jpg' type-v2='bitmap' w='21500' x='800' y='90999'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='8000' id='9' name='Scatter Plot' pane-specification-id='0' param='[federated.19faz510lul1mb18d81mc1nsyg1r].[sum:Source code:qk]' type-v2='color' w='22000' x='75800' y='8875' />
+        <zone h='9250' id='53' name='Scatter Plot' param='[federated.19faz510lul1mb18d81mc1nsyg1r].[none:AD:qk]' type-v2='filter' values='database' w='16800' x='49800' y='8750' />
+        <zone forceUpdate='true' h='5250' id='59' type-v2='text' w='10800' x='5100' y='94500'>
+          <formatted-text>
+            <run>stevenponce</run>
+          </formatted-text>
+        </zone>
+        <zone h='5250' id='61' type-v2='text' w='10800' x='5800' y='90625'>
+          <formatted-text>
+            <run>sponce1</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='900' minheight='900' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='91' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='90' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+                <zone forceUpdate='true' h='5624' id='11' type-v2='text' w='98400' x='800' y='1000'>
+                  <formatted-text>
+                    <run fontname='Arial Black' fontsize='24'>Cherry Blossom Full-flowering Dates</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='11650' id='12' type-v2='text' w='98400' x='800' y='6624'>
+                  <formatted-text>
+                    <run fontcolor='#898989' fontname='Arial Black' fontsize='12'>Kyoto, Japan (812 - 2008)</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='9250' id='53' name='Scatter Plot' param='[federated.19faz510lul1mb18d81mc1nsyg1r].[none:AD:qk]' type-v2='filter' values='database' w='16800' x='49800' y='8750'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='72725' id='3' is-fixed='true' name='Scatter Plot' w='98400' x='800' y='18274'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='8000' id='9' name='Scatter Plot' pane-specification-id='0' param='[federated.19faz510lul1mb18d81mc1nsyg1r].[sum:Source code:qk]' type-v2='color' w='22000' x='75800' y='8875'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='5250' id='61' type-v2='text' w='10800' x='5800' y='90625'>
+                  <formatted-text>
+                    <run>sponce1</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='24' h='4001' id='60' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/poncest/Downloads/twitter-x logo.jpg' type-v2='bitmap' w='21500' x='800' y='90999'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='8001' id='13' type-v2='text' w='41000' x='22300' y='90999'>
+                  <formatted-text>
+                    <run fontalignment='1'>2024 #B2VB Week 02</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='8001' id='14' type-v2='text' w='35900' x='63300' y='90999'>
+                  <formatted-text>
+                    <run fontalignment='2' fontcolor='#898989'>Data Source Link:</run>
+                    <run fontalignment='2'>Æ&#10;</run>
+                    <run auto-url='true' fontalignment='2' fontcolor='#898989' hyperlink='tabdoc:load-url url=&amp;quot;http://atmenv.envi.osakafu-u.ac.jp/aono/kyophenotemp4/&amp;quot;'>http://atmenv.envi.osakafu-u.ac.jp/aono/kyophenotemp4/</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone forceUpdate='true' h='5250' id='59' type-v2='text' w='10800' x='5100' y='94500'>
+                  <formatted-text>
+                    <run>stevenponce</run>
+                  </formatted-text>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='24' h='4000' id='58' is-centered='0' is-fixed='true' is-scaled='1' param='C:/Users/poncest/Downloads/LinkedIn logo.png' type-v2='bitmap' w='21500' x='800' y='95000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{E1048B4B-3397-4E1F-AA27-9101E8E7550D}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Scatter Plot'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='192'>
+            <card param='[federated.19faz510lul1mb18d81mc1nsyg1r].[none:AD:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.19faz510lul1mb18d81mc1nsyg1r].[sum:Source code:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{020AC070-A819-4C87-820B-A6CB394C9599}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Scatter Plot'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{5AD66D9C-3EC0-4825-8004-8590765B1539}' />
+    </window>
+  </windows>
+</workbook>
