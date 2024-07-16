@@ -1,0 +1,73 @@
+Demographic,Total_Water_Intake_L,Water_From_Beverages_L,Glasses_250ml_each,Unit,Gender,Glass_Water_250mL,,Demographic_Clean
+1-2 Yrs,1.1,0.9,4,1,Both,1,,1-2 Yrs
+1-2 Yrs,1.1,0.9,4,2,Both,2,,1-2 Yrs
+1-2 Yrs,1.1,0.9,4,3,Both,3,,1-2 Yrs
+1-2 Yrs,1.1,0.9,4,4,Both,4,,1-2 Yrs
+2-3 Yrs,1.3,1,4,1,Both,1,,2-3 Yrs
+2-3 Yrs,1.3,1,4,2,Both,2,,2-3 Yrs
+2-3 Yrs,1.3,1,4,3,Both,3,,2-3 Yrs
+2-3 Yrs,1.3,1,4,4,Both,4,,2-3 Yrs
+4-8 Yrs,1.6,1.3,5,1,Both,1,,4-8 Yrs
+4-8 Yrs,1.6,1.3,5,2,Both,2,,4-8 Yrs
+4-8 Yrs,1.6,1.3,5,3,Both,3,,4-8 Yrs
+4-8 Yrs,1.6,1.3,5,4,Both,4,,4-8 Yrs
+4-8 Yrs,1.6,1.3,5,5,Both,5,,4-8 Yrs
+9-13 Yrs (Girls),1.9,1.5,6,1,Female,1,,9-13 Yrs
+9-13 Yrs (Girls),1.9,1.5,6,2,Female,2,,9-13 Yrs
+9-13 Yrs (Girls),1.9,1.5,6,3,Female,3,,9-13 Yrs
+9-13 Yrs (Girls),1.9,1.5,6,4,Female,4,,9-13 Yrs
+9-13 Yrs (Girls),1.9,1.5,6,5,Female,5,,9-13 Yrs
+9-13 Yrs (Girls),1.9,1.5,6,6,Female,6,,9-13 Yrs
+9-13 Yrs (Boys),2.1,1.7,7,1,Male,1,,9-13 Yrs
+9-13 Yrs (Boys),2.1,1.7,7,2,Male,2,,9-13 Yrs
+9-13 Yrs (Boys),2.1,1.7,7,3,Male,3,,9-13 Yrs
+9-13 Yrs (Boys),2.1,1.7,7,4,Male,4,,9-13 Yrs
+9-13 Yrs (Boys),2.1,1.7,7,5,Male,5,,9-13 Yrs
+9-13 Yrs (Boys),2.1,1.7,7,6,Male,6,,9-13 Yrs
+9-13 Yrs (Boys),2.1,1.7,7,7,Male,7,,9-13 Yrs
+Teens/Adults (Women),2,1.6,6,1,Female,1,,Teens/Adults
+Teens/Adults (Women),2,1.6,6,2,Female,2,,Teens/Adults
+Teens/Adults (Women),2,1.6,6,3,Female,3,,Teens/Adults
+Teens/Adults (Women),2,1.6,6,4,Female,4,,Teens/Adults
+Teens/Adults (Women),2,1.6,6,5,Female,5,,Teens/Adults
+Teens/Adults (Women),2,1.6,6,6,Female,6,,Teens/Adults
+Teens/Adults (Men),2.4,2,8,1,Male,1,,Teens/Adults
+Teens/Adults (Men),2.4,2,8,2,Male,2,,Teens/Adults
+Teens/Adults (Men),2.4,2,8,3,Male,3,,Teens/Adults
+Teens/Adults (Men),2.4,2,8,4,Male,4,,Teens/Adults
+Teens/Adults (Men),2.4,2,8,5,Male,5,,Teens/Adults
+Teens/Adults (Men),2.4,2,8,6,Male,6,,Teens/Adults
+Teens/Adults (Men),2.4,2,8,7,Male,7,,Teens/Adults
+Teens/Adults (Men),2.4,2,8,8,Male,8,,Teens/Adults
+Pregnant Women,2.3,2.3,9,1,Female,1,,Pregnant Women
+Pregnant Women,2.3,2.3,9,2,Female,2,,Pregnant Women
+Pregnant Women,2.3,2.3,9,3,Female,3,,Pregnant Women
+Pregnant Women,2.3,2.3,9,4,Female,4,,Pregnant Women
+Pregnant Women,2.3,2.3,9,5,Female,5,,Pregnant Women
+Pregnant Women,2.3,2.3,9,6,Female,6,,Pregnant Women
+Pregnant Women,2.3,2.3,9,7,Female,7,,Pregnant Women
+Pregnant Women,2.3,2.3,9,8,Female,8,,Pregnant Women
+Pregnant Women,2.3,2.3,9,9,Female,9,,Pregnant Women
+Lactating Women,2.7,2.2,9,1,Female,1,,Lactating Women
+Lactating Women,2.7,2.2,9,2,Female,2,,Lactating Women
+Lactating Women,2.7,2.2,9,3,Female,3,,Lactating Women
+Lactating Women,2.7,2.2,9,4,Female,4,,Lactating Women
+Lactating Women,2.7,2.2,9,5,Female,5,,Lactating Women
+Lactating Women,2.7,2.2,9,6,Female,6,,Lactating Women
+Lactating Women,2.7,2.2,9,7,Female,7,,Lactating Women
+Lactating Women,2.7,2.2,9,8,Female,8,,Lactating Women
+Lactating Women,2.7,2.2,9,9,Female,9,,Lactating Women
+Elderly (Women),2.1,1.6,6,1,Female,1,,Elderly
+Elderly (Women),2.1,1.6,6,2,Female,2,,Elderly
+Elderly (Women),2.1,1.6,6,3,Female,3,,Elderly
+Elderly (Women),2.1,1.6,6,4,Female,4,,Elderly
+Elderly (Women),2.1,1.6,6,5,Female,5,,Elderly
+Elderly (Women),2.1,1.6,6,6,Female,6,,Elderly
+Elderly (Men),2.5,2,8,1,Male,1,,Elderly
+Elderly (Men),2.5,2,8,2,Male,2,,Elderly
+Elderly (Men),2.5,2,8,3,Male,3,,Elderly
+Elderly (Men),2.5,2,8,4,Male,4,,Elderly
+Elderly (Men),2.5,2,8,5,Male,5,,Elderly
+Elderly (Men),2.5,2,8,6,Male,6,,Elderly
+Elderly (Men),2.5,2,8,7,Male,7,,Elderly
+Elderly (Men),2.5,2,8,8,Male,8,,Elderly
